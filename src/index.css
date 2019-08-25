@@ -1,0 +1,44 @@
+html {
+  overflow-y: scroll;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  font-size: 1.7rem;
+  line-height: 1.7;
+  position: relative;
+}
+a {
+  display: inline-block;
+  color: rgb(165,205,55);
+}
+
+a:hover {
+  color: rgb(165,205,55);
+}
+
+/* ===========  NEW WEBSITE  ================ */
+
+.containerBlock {
+  margin: auto;
+  width: 80vw;
+  max-width: 1600px;
+  min-width: 250px;
+  justify-content: center;
+  align-self: center;
+}
+
+.form_bordered {
+  border-radius: 0;
+  border: 3px solid rgb(0,175,220);
+}
+.form_bordered_bottomless {
+  border-bottom: none;
+}
+.full-width {
+  width: 100% !important;
+}
+
+.bold {
+  font-weight: 600;
+}

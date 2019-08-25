@@ -1,0 +1,121 @@
+/*
+===============================================================================
+===============================================================================
+                        NEW 2019 WEBSITE STYLES
+===============================================================================
+===============================================================================
+*/
+
+.home-page-new {
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+}
+
+.home-page-header-new {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.home-page-header-logo-new {
+  flex: 1;
+  padding-bottom: 5px;
+}
+.centered-new {
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+  min-width: 250px;
+}
+.min-height-new {
+  min-height: 200px;
+}
+.home-page-main-container-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.home-page-header-logo__image-new {
+  height: 7.5vw;
+}
+
+@media (max-width: 1440px) {
+  .centered-new {
+    width: 85vw;
+  }
+}
+@media (max-width: 1024px) {
+  .centered-new {
+    width: 90vw;
+  }
+}
+@media (max-width: 768px) {
+  .home-page-header-new {
+    width: 85%;
+  }
+}
+@media (max-width: 600px) {
+  .centered-new {
+    width: 95vw;
+  }
+}
+@media (max-width: 500px) {
+  .home-page-header-new {
+    width: 95%;
+  }
+}
+@media (max-width: 350px) {
+  .home-page-header-new {
+    width: 100%;
+    padding: 10px;
+  }
+  .home-page-header-logo-new {
+    padding: 0;
+  }
+}
+
+.home-page__content-new {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 32vw;
+}
+
+.home-page__content_background-new {
+  background: url('../assets/images/background.jpg') 50% 30% no-repeat;
+  background-size: cover;
+}
+.home-page__content__inner-new {
+  margin-right: 12vw;
+  max-width: 40vw;
+  background: rgba(255,255,255,.9);
+  border-radius: 1vw;
+  color: rgb(67,27,128);
+  padding: 3vw;
+}
+.home-page__heading-new {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 3vw;
+  text-align: center;
+  margin: 0;
+}
+.home-page__content__buttons-new {
+  text-align: center;
+  width: 100%;
+}
+.btn-green-new {
+  background-color: rgb(25,182,164);
+  border-color: rgb(25,182,164);
+  color: white;
+}
+.btn-green-new:hover {
+  background-color: white;
+  border-color: rgb(25,182,164);
+  color: rgb(25,182,164);
+}

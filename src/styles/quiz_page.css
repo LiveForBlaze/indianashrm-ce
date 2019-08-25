@@ -1,0 +1,35 @@
+.quiz-page {
+  margin: 40px;
+}
+
+.quiz-page > .container {
+  max-width: 720px;
+}
+
+.quiz-menu {
+  color: #00afdc;
+  list-style-position: inside;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+
+.quiz-question {
+}
+
+.quiz-question__options {
+  font-size: 1.2em;
+}
+
+.quiz-question__option {
+  margin: 20px 0;
+}
+
+
+.quiz-video__embed {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.quiz-course-review__goals {
+  white-space: pre-line;
+}

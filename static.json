@@ -1,0 +1,12 @@
+{
+  "root": "build/",
+  "routes": {
+    "/portal/**": "index.html",
+    "/quizzes/**": "index.html",
+    "/quiz": "index.html",
+    "/login": "index.html",
+    "/preview/**": "index.html",
+    "/account": "index.html",
+    "/mobile": "index.html"
+  }
+}
